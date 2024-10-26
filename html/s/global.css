@@ -1,0 +1,278 @@
+/**************************************************************************
+*                                NutriCalc
+*                              -------------
+*               Nutrition Analysis for Cottage Food Products
+*                      © Copyright Gary Royal 2024
+*
+*   This program is free software; you can redistribute it and/or modify   
+*   it under the terms of the GNU General Public License as published by
+*   the Free Software Foundation; either version 2 of the License, or
+*   (at your option) any later version. 
+*
+***************************************************************************/
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;  
+  src: url("../a/f/Helvetica/Helvetica.ttf") format("truetype");
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Helvetica Oblique';
+  font-style: italic; 
+  src: url("../a/f/Helvetica/Helvetica-Oblique.ttf") format("truetype");
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Helvetica Bold Oblique';
+  font-style: italic;  
+  font-weight: bold;
+  src: url("../a/f/Helvetica/Helvetica-BoldOblique.ttf") format("truetype");
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Helvetica Bold';
+  font-style: normal;  
+  font-weight: bold;
+  src: url("../a/f/Helvetica/Helvetica-Bold.ttf") format("truetype");
+  font-display: swap; 
+}
+
+ @font-face {
+  font-family: 'Helvetica Black';
+  font-style: normal;  
+  font-weight:bold;
+  src: url("../a/f/Helvetica/Helvetica Black Regular.otf") format("opentype");
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Helvetica Light';
+  font-style: normal; 
+  src: url("../a/f/Helvetica/helvetica-light-587ebe5a59211.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Helvetica Compressed';
+  font-style: normal;  
+  src: url("../a/f/Helvetica/helvetica-compressed-5871d14b6903a.otf") format("opentype");
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Helvetica Rounded Bold';
+  font-style: normal;  
+  src: url("../a/f/Helvetica/helvetica-rounded-bold-5871d05ead8de.otf") format("opentype");
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Splash';
+  font-style: normal;  
+  src: url("../a/f/Splash/Splash-Regular.ttf") format("truetype");
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Berkshire Swash';
+  font-style: normal;  
+  src: url("../a/f/BerkshireSwash/BerkshireSwash-Regular.ttf") format("truetype");
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Dot Matrix';
+  font-style: normal;  
+  src: url("../a/f/DotMatrix/DOTMATRI.TTF") format("truetype");
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Dot Matrix Bold';
+  font-style: bold;  
+  src: url("../a/f/DotMatrix/DOTMBold.TTF") format("truetype");
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: 'Paladin';
+  src: url("../a/f/Paladin/PaladinFLF.ttf") format("truetype");
+  font-display: swap; 
+}
+
+html,body{margin:0; padding:0; width:100%; height:100%;}
+
+body {
+    background:#ddd;
+    color:#222;
+}
+
+html {
+    font-family:Helvetica;
+    font-size:10pt;
+    line-height:12pt;
+}
+
+.hbr {
+    font-family:'Helvetica';
+}
+
+.hbk {
+    font-family:'Helvetica Black';
+}
+
+.hbd {
+    font-family:'Helvetica Bold';
+}
+
+.hob {
+    font-family:'Helvetica Oblique';
+}
+
+.hbo {
+    font-family:'Helvetica Bold Oblique';
+}
+
+.hco {
+    font-family:'Helvetica Compressed';
+}
+
+.hro {
+    font-family:'Helvetica Bold Rounded';
+}
+
+.hbu {
+    text-decoration: underline;
+}
+
+#header {} 
+#msgdiv{} 
+#menubar {}
+
+#titlebar {
+    height:34px;
+    text-align:center;
+    color:#222;
+    font-size:16px;
+    line-height:34px;
+    text-transform: uppercase;
+    border:none;
+
+    /*background:#ccc;*/
+}
+
+#menu {
+    position: fixed;
+    top:38px;
+    width:162px;
+    left: -162px;
+    height:100%;
+    color: #222;
+    margin:0;
+    padding:0;
+    z-index:9; 
+    transition:0.2s;
+    border-top:#000 2px solid;
+    background:white;
+}
+
+
+#pga {
+    position:fixed;
+    top:76px;  
+    left:0;
+    right:0; 
+    bottom:0;       
+    overflow-x:hidden;
+    overflow-y:scroll;
+}  
+
+
+.mlogo {
+    font-family:'Helvetica Black';
+    font-size:28px;
+    line-height:40px;
+    font-weight:regular;
+    color:black;
+    /*
+    background:#666;
+    */
+}
+
+.hflex, .vflex {
+    display: flex;
+    justify-content: space-between; /* or space-between, space-around, etc. */
+   /* min-width:280px;
+    max-width:672px;
+*/
+    width:100%;
+    margin:auto;  
+}
+
+.hflex.desktop {
+   width:auto;
+}
+
+
+.vflex {
+     justify-content:center;
+}
+
+.z0 {
+    z-index:0;
+}
+
+.icon {
+    width:24px;
+    height:24px;
+    color:#222;
+    margin:8px;    
+    /*
+    background:#ccc;
+    */
+}
+
+.m0 {
+    font-size: 16px;
+    line-height: 40px;
+    height:40px;
+    border-bottom:#222 2px solid;
+    color: #black;
+    text-align:center;
+    width:calc(100% - 2px);
+    width:100%;
+    background:#bbb;
+}
+
+a.vm0,
+a.vm1,
+a.vm1:hover,
+a.vm2 {
+    display:block;
+    font-size: 16px;
+    /*background:#ccc;*/
+    height: 34px;
+    line-height:36px;
+    width:146px;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 12px;   
+    border-bottom:#222 1px solid;
+    color:#222;
+}
+
+a.vm1:hover {
+    background:black;color:white;
+}
+
+a.vm2 {
+    font-family:'Helvetica Black';
+    line-height:32px;
+}

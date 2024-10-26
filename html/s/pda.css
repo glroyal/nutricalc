@@ -1,0 +1,106 @@
+/**************************************************************************
+*                                NutriCalc
+*                              -------------
+*               Nutrition Analysis for Cottage Food Products
+*                      © Copyright Gary Royal 2024
+*
+*   This program is free software; you can redistribute it and/or modify   
+*   it under the terms of the GNU General Public License as published by
+*   the Free Software Foundation; either version 2 of the License, or
+*   (at your option) any later version. 
+*
+***************************************************************************/
+
+.label {
+    width:612pt;
+    height:400pt;
+    display:flex;
+    flex-direction:row;
+}
+
+.zone0, .zone1 {
+    width:408pt;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* optional, for horizontal centering */
+    height:100%;
+}
+
+.zone1 {
+    width:204pt;    
+}
+
+.identity {
+    width:100%;
+    margin:auto;
+    padding:0 1em;
+}
+
+.nfax {
+    margin:0;
+    height:370pt;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+.logo {
+    font-family:'Berkshire Swash';
+    font-size:48pt;
+    line-height:48pt;
+    margin-bottom:12pt;
+    text-align:center;
+}
+
+.allergens {
+    margin:9pt auto;
+    margin-left:0pt;
+    text-align:left;
+    font-size:8pt;
+    line-height:10pt; /*background:#ddd;*/
+}
+
+.baked {
+    font-size:9pt;line-height:11pt;margin:12pt auto 18pt auto;
+    text-align:center;
+}
+
+.producer {     
+    margin:-9pt 0 0 -18pt;
+    padding:0;
+    font-size:10pt;
+    line-height:12pt;
+    text-align:justify;
+    text-justify:inter-word;
+    text-align:center;
+}
+
+.disclaimer {    
+    margin:12pt 0 0 -4pt;
+    text-align:justify;
+    text-justify:inter-word;
+    text-align:center;
+    font-size:8pt;
+    line-height:10pt;
+
+}
+
+.weight {    
+    margin:8pt auto 0 auto;
+    font-size:24pt;
+    line-height:24pt;   
+    text-align:center;    
+    font-family:'Berkshire Swash';
+}
+
+.origin { 
+    margin-top:4pt;
+    font-size:8pt;
+    text-align:center;
+}

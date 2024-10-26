@@ -1,0 +1,122 @@
+/**************************************************************************
+*                                NutriCalc
+*                              -------------
+*               Nutrition Analysis for Cottage Food Products
+*                      © Copyright Gary Royal 2024
+*
+*   This program is free software; you can redistribute it and/or modify   
+*   it under the terms of the GNU General Public License as published by
+*   the Free Software Foundation; either version 2 of the License, or
+*   (at your option) any later version. 
+*
+***************************************************************************/
+
+.nfax {
+  margin:14pt auto auto 20pt;
+}
+
+.facts {
+    line-height:22pt;
+    font-size:22pt; 
+    letter-spacing: -0.025em;
+}
+
+.fright {
+    float:right;
+}
+
+.hr {
+    position:relative;border: none;
+}
+
+.servings {
+    font-size:11pt;
+    line-height:11pt;   
+   letter-spacing: 0.0025em;
+}
+
+.size {
+    font-size:11pt;
+    line-height:11pt;
+    margin: 0 2pt;
+}
+
+.amount {
+    font-size:7pt;
+    line-height:18pt;
+    margin: 0 2pt;
+}
+
+.calories0 {
+    font-size:20pt;
+    letter-spacing: -0.05em;
+    margin:0 2pt;
+}
+
+.calories1 {
+    font-size:24pt;
+    line-height:24pt;    
+    margin:-9pt 2pt 0 0;
+
+}
+
+.pdv {
+    font-size:7pt;
+    float:right;
+    letter-spacing: -0.045em;
+    margin:2pt 0;
+    padding-right:2pt;
+}
+
+
+table.macro {
+    position:relative;
+    top:4pt;
+    width:calc(100% - 4pt);
+    margin:0 2pt;
+    border:none;
+}
+
+tr {
+    border-bottom: 0.75pt solid #000;
+    /*background:#aaa;opacity:50%;*/
+    height:13pt;
+}
+
+tr.tr2 {
+    border-bottom: 0.75pt solid #000;
+    /*background:#aaa;opacity:50%;*/
+    height:0pt;
+}
+
+td.stub {
+    line-height:12pt;
+    padding-top:1pt;
+}
+
+td.col {
+    text-align:right;
+    padding-top:1pt;
+}
+
+.foot1 {
+    position:relative;
+    top:4pt;
+    font-size:6pt;
+    line-height:7pt;
+    text-align: justify;
+    text-justify: inter-word;
+    padding:0 2pt 0 8pt;
+}
+
+.foot2 {
+    position:relative;
+    top:8pt;
+    font-size:6pt;
+    line-height:7pt;
+    text-align:center;
+}
+
+.hang{
+    margin-left:-5pt;
+}
